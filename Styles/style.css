@@ -1,16 +1,26 @@
 body{
     color: black;
     background-color: rgb(205, 222, 205);
+    font-size: 1rem;
+}
+
+h1{
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial Black;
 }
 
 header{
     background-color: #45875d;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
-    
-
+    height:auto;
+    width: 100%;
+    border: 1PX solid black;
 }
 
