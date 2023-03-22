@@ -1,0 +1,16 @@
+body{
+    color: black;
+    background-color: rgb(205, 222, 205);
+}
+
+header{
+    background-color: #45875d;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+
+}
+
