@@ -46,9 +46,36 @@ p{
     align-items: center;
 }
 
+.logo {
+    font-size: 1.5 em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
 /* para que el logo no se desborde */
 .navigation ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+    .navigation ul li {
+        display: inline-block;
+    }
+
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1 rem;
+        border-radius: 5px;
+    }
+
+        .navigation ul li a:hover {
+            background-color: rgb(177, 165, 165);
+        }
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
 }
