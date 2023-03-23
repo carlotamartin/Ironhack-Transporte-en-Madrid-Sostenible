@@ -1,26 +1,54 @@
 body{
-    color: black;
+    color: #333;
     background-color: rgb(205, 222, 205);
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: Georgia;
+    line-height: 1.4em;
+    margin: 0;
 }
 
 h1{
-    color: black;
-    font-size: 1.5rem;
+    font-size: 2 rem;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: Arial Black;
+    margin-bottom: 1.6em;
+
 }
 
-header{
+p{
+    margin-bottom: 1.6em;
+}
+
+/* text-decoration: none-> para que los links no tengan subrayado */
+.header{
     background-color: #45875d;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height:auto;
-    width: 100%;
-    border: 1PX solid black;
+    color: white;
+    text-decoration: none;
+    padding: 2rem 0;
 }
 
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* para que el logo no se desborde */
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

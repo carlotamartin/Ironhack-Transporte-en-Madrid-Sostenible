@@ -7,86 +7,92 @@
     </head>
     <body>
         <header class = 'header'>
-            <img src="https://www.eysmunicipales.es/static/media/images/actualidad/el-plan-de-movilidad-sostenible-madrid-360-es-ya-una-realidad.jpg" alt="Madrid Sostenible" title="El Pais" height="60px"/>
-            <h1>MADRID SOSTENIBLE</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pagina1.html">Página 1</a></li>
-                    <li><a href="pagina2.html">Página 2</a></li>
-                    <li><a href="pagina3.html">Página 3</a></li>
-                    <li><a href="pagina4.html">Página 4</a></li>
-                </ul>
-            </nav>
+            <div class ="container logo-nav-container">
+                <img src="https://www.eysmunicipales.es/static/media/images/actualidad/el-plan-de-movilidad-sostenible-madrid-360-es-ya-una-realidad.jpg" alt="Madrid Sostenible" title="El Pais" height="60px"/>
+                <h1>MADRID SOSTENIBLE</h1>
+                <nav  class = "navigation">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pagina1.html">Página 1</a></li>
+                        <li><a href="pagina2.html">Página 2</a></li>
+                        <li><a href="pagina3.html">Página 3</a></li>
+                        <li><a href="pagina4.html">Página 4</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main>
-            <p>Bienvenido</p>
-            <p>En esta página web podrás encontrar información sobre formas de moverte en Madrid de forma Sostenible</p>
-
-            <form action="" method="get">
-                <div>
-                    <label for="sexo">Sexo:</label>
-                    <select id="sexo" name="sexo">
-                        <option value="masculino">Masculino</option>
-                        <option value="femenino">Femenino</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="edad">Edad:</label>
-                    <select id="edad" name="edad">
-                        <option value="0 a 15">0 a 15</option>
-                        <option value="15 a 20">15 a 20</option>
-                        <option value="21 a 30">21 a 30</option>
-                        <option value="31 a 40">31 a 40</option>
-                        <option value="41 a 50">41 a 50</option>
-                        <option value="51 a 60">51 a 60</option>
-                        <option value="61 en adelante">61 en adelante</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="transporte">Transporte usado diariamente:</label>
-                    <select id="transporte" name="transporte">
-                        <option value="coche">Coche</option>
-                        <option value="moto">Moto</option>
-                        <option value="bicicleta">Bicicleta</option>
-                        <option value="autobus">Autobús</option>
-                        <option value="metro">Metro</option>
-                        <option value="tren">Tren</option>
-                        <option value="avion">Avión</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="transporte">¿Por qué lo usas?</label>
-                    <select id="transporte" name="transporte">
-                        <option value="unico">Única opción de transporte</option>
-                        <option value="rapido">Rápido</option>
-                        <option value="seguro">Seguro</option>
-                        <option value="barato">Más barato</option>
-                        <option value="comodo">Comodidad</option>
-                        <option value="sin uso">No lo usan</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="transporte">Frecuencia de usos</label>
-                    <select id="transporte" name="transporte">
-                        <option value="diario">Diario</option>
-                        <option value="semanal">Semanal</option>
-                        <option value="mensual">Mensual</option>
-                        <option value="anual">Anual</option>
-                        <option value="nunca">Nunca</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="transporte">¿Cree que utilizando el transporte público apoyamos a una ciudad sostenible?</label>
-                    <select id="transporte" name="transporte">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-            </form>
+        <main class = "main">
+            <div class = "container">
+                <p>Bienvenido</p>
+                <p>En esta página web podrás encontrar información sobre formas de moverte en Madrid de forma Sostenible</p>
+                <form action="" method="get">
+                    <div>
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo" name="sexo">
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <select id="edad" name="edad">
+                            <option value="0 a 15">0 a 15</option>
+                            <option value="15 a 20">15 a 20</option>
+                            <option value="21 a 30">21 a 30</option>
+                            <option value="31 a 40">31 a 40</option>
+                            <option value="41 a 50">41 a 50</option>
+                            <option value="51 a 60">51 a 60</option>
+                            <option value="61 en adelante">61 en adelante</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="transporte">Transporte usado diariamente:</label>
+                        <select id="transporte" name="transporte">
+                            <option value="coche">Coche</option>
+                            <option value="moto">Moto</option>
+                            <option value="bicicleta">Bicicleta</option>
+                            <option value="autobus">Autobús</option>
+                            <option value="metro">Metro</option>
+                            <option value="tren">Tren</option>
+                            <option value="avion">Avión</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="transporte">¿Por qué lo usas?</label>
+                        <select id="transporte" name="transporte">
+                            <option value="unico">Única opción de transporte</option>
+                            <option value="rapido">Rápido</option>
+                            <option value="seguro">Seguro</option>
+                            <option value="barato">Más barato</option>
+                            <option value="comodo">Comodidad</option>
+                            <option value="sin uso">No lo usan</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="transporte">Frecuencia de usos</label>
+                        <select id="transporte" name="transporte">
+                            <option value="diario">Diario</option>
+                            <option value="semanal">Semanal</option>
+                            <option value="mensual">Mensual</option>
+                            <option value="anual">Anual</option>
+                            <option value="nunca">Nunca</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="transporte">¿Cree que utilizando el transporte público apoyamos a una ciudad sostenible?</label>
+                        <select id="transporte" name="transporte">
+                            <option value="si">Sí</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </form>
+        </div>
         </main>
-        <footer>
-            <p>Derechos reservados 2023</p>
+        <footer class="footer">
+            <div>
+                <p>Hecho por: @carlotamartin </p>
+                <p>Derechos reservados 2023</p>
+            </div>
         </footer>
     </body>
 </html>
