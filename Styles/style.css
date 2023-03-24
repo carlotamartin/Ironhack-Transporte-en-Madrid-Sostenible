@@ -2,12 +2,13 @@ body{
     color: #333;
     background-color: rgb(205, 222, 205);
     font-size: 1.3rem;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.4em;
     margin: 0;
 }
 
 h1{
+    line-height: 1.3em;
     font-size: 2 rem;
     display: flex;
     justify-content: center;
@@ -36,7 +37,7 @@ p{
 .container {
     width: 85%;
     max-width: 850px;
-    margin: 0 auto;
+    margin: 0 auto; /* para que el contenido se centre */
 }
 
 
