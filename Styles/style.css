@@ -7,32 +7,16 @@ body{
     margin: 0;
 }
 
-h1{
+
+h2{
     line-height: 1.3em;
     font-size: 2 rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 1.6em;
-
 }
 
 p{
     margin-bottom: 1.6em;
 }
 
-/* text-decoration: none-> para que los links no tengan subrayado */
-.header{
-    background-color: #45875d;
-    color: white;
-    text-decoration: none;
-    padding: 2rem 0;
-}
-
-.header a{
-    color: white;
-    text-decoration: none;
-}
 
 .container {
     width: 85%;
@@ -40,6 +24,23 @@ p{
     margin: 0 auto; /* para que el contenido se centre */
 }
 
+/* text-decoration: none-> para que los links no tengan subrayado */
+.header{
+    background-color: #194529;
+    text-decoration: none;
+    padding: 2rem 0;
+    position: fixed;
+    left:0;
+    top:0;
+
+    width: 100%;
+}
+
+
+    .header a{
+        color:  rgb(214, 224, 214);;
+        text-decoration: none;
+    }
 
 .logo-nav-container{
     display: flex;
@@ -48,10 +49,11 @@ p{
 }
 
 .logo {
+    letter-spacing: 1em;
     font-size: 1.5 em;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: rgb(214, 224, 214);
 }
 
 
@@ -72,11 +74,16 @@ p{
     }
 
         .navigation ul li a:hover {
-            background-color: rgb(177, 165, 165);
+            background-color:  rgb(214, 224, 214);
         }
 
+
+main{
+    padding-top: 10rem;
+}
 .footer{
     background-color: #f2f2f2;
     padding: 4rem 0;
     text-align: center;
+    margin-top: 6rem;
 }
