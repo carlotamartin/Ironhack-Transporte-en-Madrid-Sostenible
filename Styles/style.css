@@ -1,6 +1,7 @@
+/* ESTILOS PARA EL BODY */
 body {
     background-image: url("https://us.123rf.com/450wm/djvstock/djvstock1612/djvstock161217242/68109504-eco-ville-verte-ic%C3%B4ne-vecteur-illustration-design-graphique.jpg");
-    background-size: 30 rem;
+    background-size: 20rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -10,6 +11,7 @@ body {
     margin: 0;
 }
 
+/* ESTILOS PARA EL CONTENIDO */
 h1{
     font-size: 2.5rem;
     text-align: center;
@@ -38,6 +40,7 @@ p {
 }
 
 
+/* ESTILOS PARA EL HEADER */
 .container {
     width: 85%;
     max-width: 850px;
@@ -45,11 +48,12 @@ p {
     /* para que el contenido se centre */
 }
 
+
 /* text-decoration: none-> para que los links no tengan subrayado */
 .header {
     background-color: #194529;
     text-decoration: none;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -62,8 +66,10 @@ p {
     text-decoration: none;
 }
 
+
+
 .logo-nav-container {
-    display: flex;
+    display: flex; /* para centrar los elementos de forma horizontal y vertical */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -71,6 +77,7 @@ p {
     /* para que se adapte a pantallas pequeñas */
 }
 
+/* para centrar el logo */
 .logo-nav-row {
     display: flex;
     justify-content: center;
@@ -82,8 +89,8 @@ p {
 
 .logo {
     text-align: center;
-    letter-spacing: 1em;
-    font-size: 3 em;
+    letter-spacing: 0.5em;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
     color: rgb(214, 224, 214);
@@ -96,35 +103,35 @@ p {
 }
 
 
+/* ESTILOS PARA LA BARRA DE NAVEGACIÓN */
 /* para que el logo no se desborde */
 .navigation ul {
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
 
 .navigation ul li {
     display: inline-block;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+
 }
 
 .navigation ul li a {
     display: block;
-    padding: 10px;
+    padding: 0;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
+/* para que al pulsar en el header al pulsar en las secciones aparezca un color */
 .navigation ul li a:hover {
-    background-color: rgb(214, 224, 214);
+    background-color: rgb(51, 150, 51);
 }
 
 
-main {
-    padding-top: 13rem;
-}
 
+/* ESTILOS PARA LA IMAGEN */
 .image-container {
     display: flex;
     align-items: center;
@@ -141,6 +148,13 @@ main {
 
 }
 
+/* ESTILOS PARA EL MAIN: solo especificar que haya padding entre el header y el main */
+main {
+    padding-top: 10rem;
+
+}
+
+/* ESTILOS PARA EL FORMULARIO */
 .back-button{
     display: inline-block;
     background-color: #194529;
@@ -153,6 +167,7 @@ main {
     cursor: pointer;
     border-radius: 5px;
 }
+
 
 * {
     box-sizing: border-box;
@@ -178,6 +193,7 @@ textarea {
     /* para que no se pueda redimensionar el textarea */
 }
 
+/* ESTILOS PARA EL FOOTER */
 .footer {
     background-color: #f2f2f2;
     padding: 4rem 0;
@@ -190,11 +206,30 @@ textarea {
 @media (max-width: 767px) {
     body{
         background-position: center 90%;
+        padding: 0;
     }
     main {
         font-family: sans-serif;
-        padding-top: 20rem;
+        padding-top: 12rem;
     }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p, ul{
+        font-size: 1rem;
+    }
+
+    .header {
+        padding: 0.3rem 0 0 0;
+    }
+
 
     .logo {
         text-align: center;
@@ -223,7 +258,7 @@ textarea {
     .navigation ul li a {
         display: block;
         padding: 0.5rem 0 rem;
-        border-radius: 5px;
+        border: 1px solid rgb(214, 224, 214);
     }
 
     .navigation ul li a:hover {
