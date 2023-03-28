@@ -2,8 +2,8 @@
 <html lang="es">
     <head>
         <title>Madrid Sostenible</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
-        <link rel="stylesheet" href="Styles\style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="Styles/style.css">
     </head>
     <body>
         <header class = 'header'>
@@ -64,7 +64,7 @@
                     </div>
                     <div>
                         <label for="transporte">¿Por qué lo usas?</label>
-                        <select id="transporte" name="transporte">
+                        <select id="fluencia" name="transporte">
                             <option value="unico">Única opción de transporte</option>
                             <option value="rapido">Rápido</option>
                             <option value="seguro">Seguro</option>
@@ -75,7 +75,7 @@
                     </div>
                     <div>
                         <label for="transporte">Frecuencia de usos</label>
-                        <select id="transporte" name="transporte">
+                        <select id="tiempo" name="transporte">
                             <option value="diario">Diario</option>
                             <option value="semanal">Semanal</option>
                             <option value="mensual">Mensual</option>
@@ -85,21 +85,21 @@
                     </div>
                     <div>
                         <label for="transporte">¿Cree que utilizando el transporte público apoyamos a una ciudad sostenible?</label>
-                        <select id="transporte" name="transporte">
+                        <select id="pregunta" name="transporte">
                             <option value="si">Sí</option>
                             <option value="no">No</option>
                         </select>
                     </div>
                     <div>
-                        <label for="mensaje">Mensaje</label>
-                        <textarea name="mensaje" for="mensaje" placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300" ></textarea>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje"  placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300" ></textarea>
                     </div>
                     <div>
-                        <label for="email">Email</label>
+                        <label for="email" id = "email1">Email</label>
                         <input type="email" name="email" id="email" placeholder="Introduce tu email" required>
                     </div>
                     <div>
-                        <input type="submit" name="enviar" value="Enviar" formaction="encuesta.html"/>
+                        <input type="submit" name="enviar" value="Enviar" formaction="encuesta.html">
                     </div>
                 </form>
         </div>
